@@ -11,7 +11,7 @@ name_length = len(given_name) + len(middle_names) + len(family_name)
 # Now we check to make sure that the name fits within the driving license character limit, which is 25
 
 # Solution :
-if name_length <= 25 :
-	print("within character limit")
-else :
-	print("to reduce characters")
+if name_length <= 25:
+    print("within character limit")
+else:
+    print("to reduce characters")
